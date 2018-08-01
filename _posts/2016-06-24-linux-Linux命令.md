@@ -40,8 +40,25 @@ cat  log/production.log | grep -C 5 'obYTojqx6PDDzFhFlZ-0tfa6t5MQ' 显示file文
 ### 用户相关
 
 ```
+groupadd hadoop 		# 创建用户组
+useradd -d /home/hadoop -g hadoop -s /bin/bash -m hadoop    # 创建用户hadoop并添加进用户组hadoop。
+-d, --home HOME_DIR
+-g, --gid GROUP
+-s, --shell SHELL
+-m, --create-home
+passwd hadoop			# 设置密码
+userdel hadoop 		# 删除用户
+
+visudo <=> vi /etc/sudoers		# 添加suoer权限
+root ALL=(ALL:ALL) ALL
+hadoop ALL=(ALL:ALL) ALL
+
 adduser wangjing  #添加wangjing用户
-添加wangjing的sudor权限  vi /etc/sudoer
+
+# 查看用户操作
+cat /etc/passwd # 可以查看所有用户的列表
+w  				   # 可以查看当前活跃的用户列表
+cat /etc/group  # 查看用户组
 ```
 
 ### 网络相关

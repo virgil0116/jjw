@@ -6,6 +6,11 @@ categories: Web
 ---
 
 #Nginx介绍
+
+[Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html) |
+[Nginx开发从入门到精通 - github](https://github.com/taobao/nginx-book)
+
+
 Nginx，一个轻量级高性能的HTTP服务器和反向代理服务器软件。还是一个IMAP/POP3/SMTp代理服务器。
 Nginx以其高性能，稳定性，丰富的功能，简单的配置和低资源消耗而闻名。
 

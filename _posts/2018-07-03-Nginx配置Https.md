@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "配置Https"
+title:  "Nginx配置Https"
 date:   2018-07-03
 categories: 系统安全
 ---
@@ -12,7 +12,7 @@ categories: 系统安全
 3. 将审核进度中的fileauth.txt文件下载下来，传到服务器的域名访问路径下。等待审核通过...
 4. 审核通过以后，点击进入下载。按照文档配置...
 5. 将系统生成文件上传到nginx安装目录下的cert目录中(新建cert目录)。
-6. 配置nginx安装目录下的配置文件如下->
+6. 配置nginx安装目录下的配置文件如下 -> ``
 7. 测试配置成功。
 
 ```
