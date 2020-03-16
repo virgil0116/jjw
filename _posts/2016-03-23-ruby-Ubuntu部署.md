@@ -21,6 +21,8 @@ $ lsb_release -a
 3. root安装nginx $ apt-get install nginx -y   (安装完默认启动；启动命令：systemctl start nginx)
 4. root安装mysql
 
+[CentOS7安装MySQL(YUM源)](https://www.cnblogs.com/caoxb/p/9405323.html)
+
 ```
 $ apt-get install mysql-server -y     （安装完默认启动）
 $ apt-get install libmysqlclient-dev    (安装组件)
