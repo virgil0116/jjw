@@ -45,8 +45,6 @@ $ docker info		# 检查docker安装成功
 是指当前用户没有操作docker的权限，我的解决方案是将当前用户（virgil）加入‘/var/run/docker.sock’的权限组（root）中,然后重启：
 $ sudo gpasswd -a virgil docker
 
-
-    
 $ yum install docker -y		# 安装docker
 //旧时的sysv语法
 $ service docker start		# 启动docker服务
@@ -54,11 +52,7 @@ $ chkconfig docker on		# 设置docker开机启动
 //CentOS7的新式systend语法
 $ systemctl start docker.service	# 启动服务
 $ systemctl enable docker.service #设置docker开机启动
-
-
 ```
-
-
 ## Docker02
 
 查看Docker daemon是否运行 $ ps aux | grep docker
